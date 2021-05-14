@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "0.1",
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*", "https://welcome-belarus.ru/*", "https://yandex.by/*", "https://yandex.ru/*", "https://edvance.ru/*", "https://promtex.by/*", "https://epicentr.by/*", "https://proektago.ru/*", "https://demontazh-servis.ru/*", "https://vi-term.ru/*", "https://paradigma.website/*", "https://www.vash-otdyh.by/*", "https://viapol.by/*", "https://elitstroi.by/*", "https://red-circle.ru/*"],
+        "js": ["jquery.js", "bazelink.js", "textformat.js",
+            "script.js", "viapol.js"
+        ],
+        "run_at": "document_end"
+    }]
+}
